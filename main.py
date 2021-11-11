@@ -86,6 +86,9 @@ def matrix_multiplier(que, run):
 
             que.put(filename)
 
+#matrix1 = [[1, 2], [3, 4]]
+#matrix2 = [[2, 0], [1, 2]]            
+
 if __name__ == '__main__':
     matrix_q = Queue()
     run = Value('i', 1)
